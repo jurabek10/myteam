@@ -217,3 +217,44 @@ main {
 .sitenav__link:active {
     opacity: 0.6;
 }
+
+
+/* HERO */
+.hero {
+    padding-bottom: 250px;
+}
+
+.hero__container {
+    display: flex;
+}
+.hero__title {
+    width: 635px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+.hero__title--strong {
+    color: var(--accent-red);
+}
+
+.hero__info {
+    width: 445px;
+    flex-shrink: 1;
+}
+.hero__line {
+    width: 50px;
+    height: 4px;
+    background-color:  #79C8C7;;
+}
+
+.hero__info--text {
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
