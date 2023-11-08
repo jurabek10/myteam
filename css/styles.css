@@ -1,5 +1,38 @@
-/* GLOBAL STYLES */
+:root {
+    --font-family: "Livvic", "Arial", sans-serif;
+    --text-color: #fff;
+    --accent-red: #F67E7E;
+    --accent-dark-green: #79C8C7;
+    --light-green: #014E56;
+    --dark-green:  #012F34;
+    --green-light:  #004047;
+    --green-dark: #002529;
 
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+    url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+    url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* GLOBAL STYLES */
 html {
     height: 100%;
     box-sizing: border-box;
@@ -18,11 +51,12 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Arial", sans-serif;
-    background-color: #fff;
-    color: #222;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: var(--font-family);
+    background-color: var(--light-green);
+    font-weight: 600;
+    color: var(--text-color);
 }
 
 img {
@@ -72,9 +106,9 @@ select:-webkit-autofill:focus {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
 }
