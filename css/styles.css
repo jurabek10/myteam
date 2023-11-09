@@ -24,12 +24,22 @@
 
 @font-face {
     font-family: 'Livvic';
+    src: url('../fonts/Livvic-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Livvic-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
     src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
     url('../fonts/Livvic-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
+
 
 
 
@@ -327,4 +337,72 @@ main {
     margin-top: 16px;
     margin-bottom: 0;
     font-style: normal;
+}
+
+
+/* STORIES */
+.stories {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    background-color: var(--green-light);
+}
+
+.stories__title {
+    margin-top: 0;
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.stories__strong {
+    color: var(--accent-dark-green);
+}
+
+.stories__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.stories__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.story {
+    text-align: center;
+}
+
+.story__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+.story__name {
+    margin-top: 24px;
+    margin-bottom: 2px;
+    color: var(--accent-dark-green);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.story__position {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.story__img {
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
 }
