@@ -157,6 +157,20 @@ main {
     opacity: 0.6;
 }
 
+.button--cta {
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.button--cta:hover {
+    background-color: var(--dark-green);
+    color: var(--text-color);
+}
+
+.button--cta:active {
+    opacity: 0.6;
+}
+
 /* LOGO */
 .logo {
     display: inline-block;
@@ -405,4 +419,31 @@ main {
     object-fit: cover;
     border-radius: 62px;
     border: 2px solid #C4FFFE;
+}
+
+
+/* CTA */
+.cta {
+    padding-top: 76px;
+    padding-bottom: 76px;
+    background-color: var(--accent-red);
+}
+.cta__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 260px;
+    color: var(--dark-green);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.button {
+}
+.button--cta {
 }
