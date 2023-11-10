@@ -279,8 +279,22 @@ main {
     color: var(--accent-red);
 }
 
+.hero-about__title {
+    font-size: 64px;
+}
+
+.hero-about__title {
+    width: 350px;
+    margin-right: 30px;
+}
+
 .hero__info {
     width: 445px;
+    flex-shrink: 1;
+}
+
+.hero-about__info {
+    width: 730px;
     flex-shrink: 1;
 }
 
@@ -291,6 +305,10 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: 28px; 
+}
+
+.hero-about--text {
+    margin-top: 40px;
 }
 
 
