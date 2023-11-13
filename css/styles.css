@@ -141,6 +141,7 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    text-decoration: none;
 }
 
 .button--header {
@@ -704,5 +705,125 @@ main {
 .director__socials--link:hover  {
     opacity: 0.6;
 }
-.director__socials--icon {
+
+
+
+/* CONTACTS */
+.contacts {
+    padding-bottom: 128px;
+}
+
+.contacts__container {
+    display: flex;
+}
+
+.contacts__content {
+    width: 445px;
+    margin-right: 32px;
+}
+
+.contacts__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.contacts__subtitle {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: var(--accent-red);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.contacts__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+}
+
+.contact__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+
+.contact__img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    margin-right: 23px;
+}
+
+.contact__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+.contacts__form {
+    flex-direction: column;
+    width: 540px;
+}
+
+.contacts__input--wrapper {
+}
+
+.contacts__input {
+    width: 540px;
+    padding-top: 24px;
+    padding-left: 14px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--text-color);
+    font-style: normal;
+    letter-spacing: -0.115px;
+    color: var(--text-color);
+    opacity: 0.6;
+}
+
+
+.contacts__textarea {
+    width: 540px;
+    padding-top: 24px;
+    padding-left: 14px;
+    padding-bottom: 58px;
+    margin-bottom: 24px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--text-color);
+    opacity: 0.6;
+}
+
+.contacts__button {
+    padding: 9px 32px 11px;
+    border-radius: 24px;
+    border: 2px solid var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--green-light);
+}
+
+.contacts__button:hover {
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.contacts__button:active {
+    opacity: 0.6;
 }
